@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>congrats!</title>
+<style>
+:root{--x:#111;--y:#fff}body{background:var(--y);color:var(--x);margin:0;font-family:system-ui}
+body div{padding:1rem}.a{font-weight:700}.b{margin-left:calc(1px + 0px)}
+</style>
+</head>
+<body>
+<div id="root"><div class="b"><main><section><div><h1 id="headline">Well congrats!</h1></div></section>
+<section><div><h2>You have found this abomination of a site.</h2><div><h3>I am happy that you managed to find this, this is supposed to be an easter egg but why not?</h3>
+<div><a id="question">Now I have a question.</a><div><span><a id="mystery" href="mark.gif" target="_blank">is ____ __p_ safe for keeping ___ _o__y in?</a></span></div></div></div></div></section>
+</main></div></div>
+<script>
+(function(){var z=document.getElementById("root"),q=document.getElementById("question"),m=document.getElementById("mystery");
+(function(a){a.dataset.ok="probably";a.classList.add("a");})(q);
+(function(){var t=m.getAttribute("href"),u=m.target;[t,u].forEach(function(v){return v;});})();
+window.addEventListener("load",function(){setTimeout(function(){document.body.setAttribute("data-loaded",""+!!z);},0);});
+})();
+</script>
+</body>
+</html>
